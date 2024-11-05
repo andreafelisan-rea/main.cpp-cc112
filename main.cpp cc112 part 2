@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+float celtofahren(float celsius);
+
+int main(){
+    float tempC,tempF;
+    cout<<"\n Enter a temperature in C: ";
+    cin>>tempC;
+    tempF =celtofahren(tempC);
+    cout<<"\n The temperature in tempF is "<<tempF;
+
+}
+float celtofahren(float celsius){
+    return (celsius * (9.0f/5.0f)) + 32.0f;
+}
