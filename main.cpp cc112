@@ -1,0 +1,11 @@
+// program temperature .main cpp
+#include <iostream>
+using namespace std;
+
+int main (){
+    float C,F;
+    cout<<"Enter a temperature in C: ";
+    cin>> C;
+    F =(C*9/5) + 32;
+    cout<<"Enter a temperature in F is "<< F;
+}
